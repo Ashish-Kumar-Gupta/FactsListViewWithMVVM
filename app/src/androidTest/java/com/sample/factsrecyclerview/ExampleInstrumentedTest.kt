@@ -1,4 +1,4 @@
-package com.sample.factslistview
+package com.sample.factsrecyclerview
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,4 +1,4 @@
-package com.sample.factslistview
+package com.sample.factsrecyclerview
 
 import org.junit.Test
 

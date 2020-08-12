@@ -1,4 +1,4 @@
-package com.sample.factslistview.model
+package com.sample.factsrecyclerview.model
 
 import com.squareup.moshi.Json
 
