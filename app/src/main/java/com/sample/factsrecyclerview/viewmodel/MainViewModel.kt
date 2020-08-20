@@ -14,7 +14,6 @@ class MainViewModel(private val remoteSourceImpl: RemoteSourceImpl): ViewModel()
     var toolbarTitleLiveData: MutableLiveData<String>? = null
     var factsLiveData: MutableLiveData<List<Fact>>? = null
     private var factsRecyclerViewAdapter: FactsRecyclerViewAdapter? = null
-    private var picasso: Picasso? = null
 
     init {
         toolbarTitleLiveData = MutableLiveData()

@@ -67,7 +67,14 @@ dependencies {
     implementation 'jp.wasabeef:picasso-transformations:2.1.0'
     kapt "android.arch.lifecycle:compiler:1.1.1"
     kapt "com.android.databinding:compiler:$compiler_version"
+    testImplementation 'org.mockito:mockito-all:1.10.19'
     testImplementation 'junit:junit:4.12'
+    testImplementation 'org.robolectric:robolectric:3.0'
+    testImplementation('org.robolectric:shadows-support-v4:3.0') {
+        exclude module: 'support-v4'
+    }
+    testImplementation "io.mockk:mockk:1.9.3"
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
 }
